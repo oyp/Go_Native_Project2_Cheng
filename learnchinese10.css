@@ -1,0 +1,9 @@
+table table-info table-hover{
+  text-shadow: 1em 1em black;
+}
+
+.table td, .table th {
+  text-shadow: .05em .05em black !important;
+  font-weight: bold;
+  color:white;
+}

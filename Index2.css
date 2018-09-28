@@ -1,0 +1,35 @@
+img{
+
+  border-style: inset;
+  border-color: red;
+
+}
+
+
+ @media only screen and (max-width:800px){ .carousel-item
+   {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  /* @media only screen and (max-width:800px){ .carousel-caption h3 p
+    {
+       font-size: .5em;
+       font-weight: bold;
+       top:20%;
+     }
+   } */
+@media (min-width: 320px){
+  .d-md-block, .carousel-caption {
+    display: block !important;
+    font-size: .5em;
+    font-weight: bold;
+
+  }
+}
+
+h3{
+  text-shadow: 2px 2px #4314c1;
+}
+/* !important xxx */
